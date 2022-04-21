@@ -1,4 +1,5 @@
 body {
+	font-family: 'Montserrat', sans-serif;
     padding: 0;
     margin: 0;
 	color: #fff4de;
@@ -27,9 +28,30 @@ body {
     position: fixed;
     align-items: center;
     justify-content: center;
-	font-size: 6em;
+	font-size: 5em;
+	text-align: center;
+}
+
+.content {
+	padding: 1em;
+}
+
+.donate-description {
+	padding-bottom: 2em;
 }
 
 .number-description {
 	font-size: 0.4em;
+}
+
+#copied-description {
+	display: none;
+}
+
+.card-number-block.copied #copied-description {
+	display: block;
+}
+
+.card-number-block.copied #copy-suggestion {
+	display: none;
 }
