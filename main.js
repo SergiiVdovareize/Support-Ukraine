@@ -1,5 +1,13 @@
+/**
+ * TODO list:
+ * 1. validate card numbers in html and js
+ * 2. validate private link
+ * 3. calidate mono link
+ * 4. validate fallback link
+ */
+
 (()=>{
-    const CARD_NUMBER = '1234 5678 3456 7895';
+    const CARD_NUMBER = '1234 5678 3456 7891';
     let resetId
 
     const copyNumber = (block) => {
