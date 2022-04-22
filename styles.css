@@ -98,7 +98,7 @@ body {
 
 .card-number:not(:active) {
 	transition-property: color, text-shadow;
-	transition-duration: 3s;
+	transition-duration: 1s;
 }
 
 .card-number:active {
