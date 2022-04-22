@@ -28,7 +28,7 @@ body {
     position: fixed;
     align-items: center;
     justify-content: center;
-	font-size: 5em;
+	font-size: 4em;
 	text-align: center;
 }
 
@@ -38,6 +38,41 @@ body {
 
 .donate-description {
 	padding-bottom: 2em;
+}
+
+.option-description {
+	padding-bottom: 1em;
+}
+
+.bank-block {
+	display: flex;
+	padding-bottom: 1em;
+}
+
+.bank-link {
+	flex: 1;
+}
+
+.bank-link a {
+	text-decoration: none;
+	color: white;
+	font-size: 0.8em;
+	font-weight: bold;
+}
+
+.bank-link img {
+	width: 80%;
+}
+
+.another-bank-block {
+	padding-bottom: 1em;
+}
+
+.another-bank-block a {
+	/* text-decoration: none; */
+	/* font-size: 1.2em; */
+	color: white;
+	font-weight: bold;
 }
 
 .number-description {
@@ -54,4 +89,19 @@ body {
 
 .card-number-block.copied #copy-suggestion {
 	display: none;
+}
+
+.card-number {
+	font-size: 1.2em;
+	font-weight: bold;
+}
+
+.card-number:not(:active) {
+	transition-property: color, text-shadow;
+	transition-duration: 3s;
+}
+
+.card-number:active {
+	color: #0a1724;
+	text-shadow: 0 0 60px #0a1724;
 }

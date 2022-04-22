@@ -2,8 +2,9 @@
 <html>
 <head>
     <title>Please, donate</title>
-    <!-- <link rel="icon" type="image/png" href="favicon.png"/> -->
+    <link rel="icon" type="image/png" href="img/favicon.png"/>
     <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+    <meta name="theme-color" content="#0077EF"/>
     <link rel="stylesheet" href="styles.css"/>
 </head>
 
@@ -14,15 +15,45 @@
             Збираємо гроші на знищенні їбучої рузьні
          </div>
          
-         <div class="card-number-block" id='card-number-block'>
-            <div id="card-number">
-               1234 5678 3456 7891
+         <div class="bank-option">
+            <div class="option-description">Оберіть зручний банк:</div>
+
+            <div class="bank-block">
+               <div class="bank-link">
+                  <a href="https://next.privat24.ua/money-transfer/form/%7B%22form%22:%7B%22receiver%22:%7B%22source%22:%22manual%22,%22number%22:%225169360017549514%22%7D,%22amount%22:%22100%22,%22currency%22:%22UAH%22%7D%7D" target="_blank">
+                     <img src="img/privat.png"/>
+                     <span class="bank-name">приват</span>
+                  </a>
+               </div>
+
+               <div class="bank-link">
+                  <a href="https://send.monobank.ua/jar/8uewaBTgLw" target="_blank">
+                     <img src="img/mono.png"/>
+                     <span class="bank-name">моно</span>
+                  </a>
+               </div>
             </div>
-            <div class='number-description' id='copy-suggestion'>
-               натисни щоб скопіювати номер
+
+            <div class="another-bank-block">
+               <a href="https://send.monobank.ua/jar/8uewaBTgLw" target="_blank">
+                  У мене інший банк
+               </a>
             </div>
-            <div class='number-description' id='copied-description'>
-               ✓ номер скопійовано 
+         </div>
+
+         <div class="card-option">
+            <div class="option-description">Або просто за номером картки:</div>
+
+            <div class="card-number-block" id='card-number-block'>
+               <div class="card-number">
+                  1234 5678 3456 7891
+               </div>
+               <div class='number-description' id='copy-suggestion'>
+                  натисни щоб скопіювати номер
+               </div>
+               <div class='number-description' id='copied-description'>
+                  👌 номер скопійовано 
+               </div>
             </div>
          </div>
       </div>
