@@ -115,3 +115,7 @@ body {
 	color: #0a1724;
 	text-shadow: 0 0 60px #0a1724;
 }
+
+.copy-number {
+	height: 1em;
+}
