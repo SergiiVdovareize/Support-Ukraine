@@ -2,7 +2,8 @@
  * TODO list:
  * 1. validate card numbers in html and js
  * 2. validate private link
- * 3. calidate mono link
+ * 3. validate mono link
+ * 4. validate revolute link
  * 4. validate fallback link
  */
 

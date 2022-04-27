@@ -2,11 +2,12 @@ body {
 	font-family: 'Montserrat', sans-serif;
     padding: 0;
     margin: 0;
-	color: #fff4de;
-    text-shadow: 0 0 20px #3a3a3a;
+    /* text-shadow: 0 0 20px #3a3a3a; */
+	color: #0052CE;
+	background-color: #FFF401;
 }
 
-@keyframes gradient {
+/* @keyframes gradient {
 	0% {
 		background-position: 0% 50%;
 	}
@@ -16,12 +17,12 @@ body {
 	100% {
 		background-position: 0% 50%;
 	}
-}
+} */
 
 .container {
-    background: linear-gradient(-17deg, #F2D500, #F2D500, #F2D500, #0077EF, #0077EF, #0077EF, #0077EF);
-	background-size: 200% 200%;
-	animation: gradient 10s ease infinite;
+    /* background: linear-gradient(-17deg, #F2D500, #F2D500, #F2D500, #0077EF, #0077EF, #0077EF, #0077EF); */
+	/* background-size: 200% 200%; */
+	/* animation: gradient 10s ease infinite; */
     height: 100%;
     width: 100%;
     display: flex;
@@ -37,31 +38,40 @@ body {
 }
 
 .donate-description {
-	padding-bottom: 2em;
+	padding-bottom: 0.8em;
+	font-size: 2em;
+	font-weight: bold;
+}
+
+.donate-sub-description {
+	font-size: 1.2em;
 }
 
 .option-description {
-	padding-bottom: 1em;
+	padding-bottom: 0.6em;
 }
 
-.bank-block {
-	display: flex;
+.bank-option {
 	padding-bottom: 1em;
 }
 
 .bank-link {
-	flex: 1;
+	margin-bottom: 0.6em;
 }
 
 .bank-link a {
+	color: black;
+	background-color: white;
 	text-decoration: none;
-	color: white;
 	font-size: 0.8em;
 	font-weight: bold;
+	padding: 1em;
+	border-radius: 2em;
+	display: block;
 }
 
-.bank-link img {
-	width: 80%;
+.bank-link a svg {
+	height: 1em;
 }
 
 .another-bank-block {
