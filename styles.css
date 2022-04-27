@@ -25,7 +25,7 @@ body {
 	justify-content: center;
 	text-align: center;
 	position: relative;
-	overflow: hidden;
+	overflow: auto;
 }
 
 .content {
@@ -98,6 +98,7 @@ body {
 
 .number-description {
 	font-size: 0.75rem;
+	padding-bottom: 0.5rem;
 }
 
 #copied-description {
