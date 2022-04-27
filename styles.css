@@ -82,6 +82,14 @@ body {
 	background-position: center;
 }
 
+.bank-link a:hover {
+	background-color: #e7e7e7;
+}
+
+.bank-link a:active {
+	filter: invert(1);
+}
+
 .privat-logo {
 	background-image: url(img/privat_logo.svg);
 	background-size: auto 1.7rem;
