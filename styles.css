@@ -2,27 +2,11 @@ body {
 	font-family: 'Montserrat', sans-serif;
     padding: 0;
     margin: 0;
-    /* text-shadow: 0 0 20px #3a3a3a; */
 	color: #0052CE;
 	background-color: #FFF401;
 }
 
-/* @keyframes gradient {
-	0% {
-		background-position: 0% 50%;
-	}
-	50% {
-		background-position: 100% 50%;
-	}
-	100% {
-		background-position: 0% 50%;
-	}
-} */
-
 .container {
-    /* background: linear-gradient(-17deg, #F2D500, #F2D500, #F2D500, #0077EF, #0077EF, #0077EF, #0077EF); */
-	/* background-size: 200% 200%; */
-	/* animation: gradient 10s ease infinite; */
     height: 100%;
     width: 100%;
     display: flex;
