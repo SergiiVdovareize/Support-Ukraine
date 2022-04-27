@@ -68,10 +68,24 @@ body {
 	padding: 1em;
 	border-radius: 2em;
 	display: block;
+	height: 1em;
+	background-repeat: no-repeat;
+	background-position: center;
 }
 
-.bank-link a svg {
-	height: 1em;
+.privat-logo {
+	background-image: url(img/privat_logo.svg);
+	background-size: auto 1.4em;
+}
+
+.mono-logo {
+	background-image: url(img/mono_logo.svg);
+	background-size: auto 1.1em;
+}
+
+.revolut-logo {
+	background-image: url(img/revolut_logo.svg);
+	background-size: auto 1.2em;
 }
 
 .another-bank-block {
@@ -79,8 +93,6 @@ body {
 }
 
 .another-bank-block a {
-	/* text-decoration: none; */
-	/* font-size: 1.2em; */
 	color: white;
 	font-weight: bold;
 }
