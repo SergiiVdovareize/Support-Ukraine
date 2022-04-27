@@ -1,89 +1,104 @@
+html {
+	box-sizing: border-box;
+	height: 100%;
+	font-size: 13px;
+}
+
+*, *:before, *:after {
+	box-sizing: inherit;
+}
+
 body {
-	/* font-family: 'Montserrat', sans-serif; */
-	font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    padding: 0;
-    margin: 0;
+	font: 1rem/1 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+	padding: 0;
+	margin: 0;
 	color: #0052CE;
 	background-color: #FFF401;
+	height: 100%;
 }
 
 .container {
-    height: 100%;
-    width: 100%;
-    display: flex;
-    position: fixed;
-    align-items: center;
-    justify-content: center;
-	font-size: 4em;
+	height: 100%;
+	width: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
 	text-align: center;
+	position: relative;
+	overflow: auto;
 }
 
 .content {
-	padding: 1em;
+	padding: 1rem;
+	width: 100%;
+	height: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	flex-direction: column;
+	max-width: 1280px;
+	max-height: 600px;
+}
+
+.option-description {
+	/* padding: 0 0 1rem; */
 }
 
 .donate-description {
-	padding-bottom: 0.8em;
-	font-size: 2em;
+	padding: 0.75rem 0;
+	font-size: 2.5rem;
 	font-weight: bold;
 }
 
 .donate-sub-description {
-	font-size: 1.2em;
-}
-
-.option-description {
-	padding-bottom: 0.6em;
+	font-size: 1.75rem;
+	padding: 0.5rem 0;
 }
 
 .bank-option {
-	padding-bottom: 1em;
+	padding: 1rem 0;
+	width: 100%;
 }
 
 .bank-link {
-	margin-bottom: 0.6em;
+	margin-bottom: 1rem;
 }
 
 .bank-link a {
 	color: black;
 	background-color: white;
 	text-decoration: none;
-	font-size: 0.8em;
+	font-size: 1.5rem;
+	line-height: 1;
 	font-weight: bold;
-	padding: 1em;
-	border-radius: 2em;
-	display: block;
-	height: 1em;
+	padding: 0.75rem;
+	border-radius: 3rem;
+	height: 3rem;
+	display: flex;
+	align-items: center;
+	justify-content: center;
 	background-repeat: no-repeat;
 	background-position: center;
 }
 
 .privat-logo {
 	background-image: url(img/privat_logo.svg);
-	background-size: auto 1.4em;
+	background-size: auto 1.7rem;
 }
 
 .mono-logo {
 	background-image: url(img/mono_logo.svg);
-	background-size: auto 1.1em;
+	background-size: auto 1.7rem;
 }
 
 .revolut-logo {
 	background-image: url(img/revolut_logo.svg);
-	background-size: auto 1.2em;
-}
-
-.another-bank-block {
-	padding-bottom: 1em;
-}
-
-.another-bank-block a {
-	color: white;
-	font-weight: bold;
+	background-size: auto 1.7rem;
 }
 
 .number-description {
-	font-size: 0.4em;
+	font-size: 0.75rem;
+	padding-bottom: 0.5rem;
 }
 
 #copied-description {
@@ -99,8 +114,9 @@ body {
 }
 
 .card-number {
-	font-size: 1.2em;
+	font-size: 2rem;
 	font-weight: bold;
+	padding: 0.5rem 0;
 }
 
 .card-number:not(:active) {
@@ -114,5 +130,56 @@ body {
 }
 
 .copy-number {
-	height: 1em;
+	/* height: 1em; */
+}
+
+@media (min-width: 360px) {
+	html {
+		font-size: 16px;
+	}
+}
+
+@media (min-width: 768px) {
+	html {
+		font-size: 18px;
+	}
+	.content {
+		max-height: 500px;
+	}
+	.bank-option {
+		display: flex;
+		flex-wrap: wrap;
+		max-width: 700px;
+		margin: 0 auto;
+	}
+	.bank-link {
+		padding: 0 1rem;
+		flex: 1 0 50%;
+		text-align: center;
+	}
+	.bank-link a {
+		font-size: 1.25rem;
+		background-size: auto 1.1rem;
+	}
+}
+
+@media (min-width: 1280px) {
+	html {
+		font-size: 20px;
+	}
+	.donate-description {
+		padding: 1rem 0;
+		font-size: 4rem;
+	}
+	
+	.donate-sub-description {
+		font-size: 2rem;
+		padding: 1rem 0;
+	}
+}
+
+@media (max-height: 530px) {
+	html {
+		font-size: 12px;
+	}
 }
