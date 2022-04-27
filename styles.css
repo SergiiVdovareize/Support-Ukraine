@@ -9,7 +9,7 @@ html {
 }
 
 body {
-	font: 1rem/1 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+	font: 1rem/1 'Mulish', sans-serif;
 	padding: 0;
 	margin: 0;
 	color: #0052CE;
@@ -41,7 +41,8 @@ body {
 }
 
 .option-description {
-	/* padding: 0 0 1rem; */
+	font-size: 1.75rem;
+	padding-bottom: 0.5rem;
 }
 
 .donate-description {
@@ -71,7 +72,7 @@ body {
 	font-size: 1.5rem;
 	line-height: 1;
 	font-weight: bold;
-	padding: 0.75rem;
+	padding: 1.8rem 0.75rem;
 	border-radius: 3rem;
 	height: 3rem;
 	display: flex;
@@ -114,9 +115,17 @@ body {
 }
 
 .card-number {
-	font-size: 2rem;
+	font-size: 1.8rem;
 	font-weight: bold;
 	padding: 0.5rem 0;
+}
+
+.card-number::after {
+	content: " ";
+	background-image: url(img/copy-text.svg);
+	width: 20px;
+	height: 20px;
+	display: inline-block;
 }
 
 .card-number:not(:active) {
@@ -125,12 +134,8 @@ body {
 }
 
 .card-number:active {
-	color: #0a1724;
-	text-shadow: 0 0 60px #0a1724;
-}
-
-.copy-number {
-	/* height: 1em; */
+	color: #013b93;
+	text-shadow: 0 0 5px #013b93;
 }
 
 @media (min-width: 360px) {
@@ -159,6 +164,7 @@ body {
 	}
 	.bank-link a {
 		font-size: 1.25rem;
+		padding: 0.75rem;
 		background-size: auto 1.1rem;
 	}
 }
