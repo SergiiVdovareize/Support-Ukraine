@@ -138,7 +138,7 @@ body {
 
 .card-number-block:not(:active) .card-number {
 	transition-property: color, text-shadow;
-	transition-duration: 1s;
+	transition-duration: 2s;
 }
 
 .card-number-block:active .card-number {
