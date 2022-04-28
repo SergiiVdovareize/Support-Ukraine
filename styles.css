@@ -123,10 +123,13 @@ body {
 	display: none;
 }
 
-.card-number {
+.card-number,
+.card-number:visited {
 	font-size: 1.8rem;
 	font-weight: bold;
 	padding: 0.5rem 0;
+	color: #0052CE;
+	text-decoration: none; 
 }
 
 .card-number::after {
