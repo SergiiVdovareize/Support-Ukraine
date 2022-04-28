@@ -125,7 +125,7 @@ body {
 
 .card-number,
 .card-number:visited {
-	font-size: 1.8rem;
+	font-size: 1.75rem;
 	font-weight: bold;
 	padding: 0.5rem 0;
 }
@@ -136,10 +136,10 @@ body {
 }
 
 .card-number::after {
-	content: " ";
+	content: "";
 	background-image: url(img/copy-text.svg);
-	width: 20px;
-	height: 20px;
+	width: 18px;
+	height: 18px;
 	display: inline-block;
 }
 
