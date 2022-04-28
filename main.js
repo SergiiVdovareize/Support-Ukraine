@@ -5,6 +5,7 @@
  * 3. validate mono link
  * 4. validate revolute link
  * 4. validate fallback link
+ * 5. update meta description
  */
 
 (()=>{

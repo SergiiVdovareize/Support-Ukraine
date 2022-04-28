@@ -9,7 +9,7 @@ html {
 }
 
 body {
-	font: 1rem/1 'Mulish', sans-serif;
+	font: 1rem/1 'Exo 2', sans-serif;
 	padding: 0;
 	margin: 0;
 	color: #0052CE;
@@ -149,7 +149,7 @@ body {
 
 @media (min-width: 360px) {
 	html {
-		font-size: 14px;
+		font-size: 16px;
 	}
 }
 
