@@ -34,7 +34,6 @@ body {
 	height: 100%;
 	display: flex;
 	align-items: center;
-	justify-content: space-between;
 	flex-direction: column;
 	max-width: 1280px;
 	max-height: 600px;
@@ -61,7 +60,7 @@ body {
 	width: 100%;
 }
 
-.bank-link {
+.bank-link:not(:last-child) {
 	margin-bottom: 1rem;
 }
 
@@ -132,8 +131,8 @@ body {
 .card-number::after {
 	content: "";
 	background-image: url(img/copy-text.svg);
-	width: 20px;
-	height: 20px;
+	width: 16px;
+	height: 16px;
 	display: inline-block;
 }
 
@@ -150,6 +149,11 @@ body {
 @media (min-width: 360px) {
 	html {
 		font-size: 16px;
+	}
+	
+	.card-number::after {
+		width: 20px;
+		height: 20px;
 	}
 }
 
@@ -174,7 +178,11 @@ body {
 	.bank-logo {
 		font-size: 1.25rem;
 		height: 2.6rem;
-		background-size: auto 1.1rem;
+		background-size: auto 2.4rem;
+	}
+	.card-number::after {
+		width: 22px;
+		height: 22px;
 	}
 }
 
@@ -186,10 +194,13 @@ body {
 		padding: 1rem 0;
 		font-size: 4rem;
 	}
-	
 	.donate-sub-description {
 		font-size: 2rem;
 		padding: 1rem 0;
+	}
+	.card-number::after {
+		width: 24px;
+		height: 24px;
 	}
 }
 
