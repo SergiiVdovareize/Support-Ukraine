@@ -8,13 +8,15 @@
  */
 
 (()=>{
-    const CARD_NUMBER = '1234 5678 3456 7891';
     let resetId
 
     const copyNumber = (block) => {
         clearTimeout(resetId);
         block.classList.add('copied')
-        navigator.clipboard.writeText(CARD_NUMBER.replaceAll(/\s/g, ""))
+        
+        const cardNumber = document.getElementById('card-number').innerText.replaceAll(/\s/g, "")
+        navigator.clipboard.writeText(cardNumber)
+
         resetId = setTimeout(() => {
             resetCopy(block)
         }, 10000)

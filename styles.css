@@ -65,16 +65,15 @@ body {
 	margin-bottom: 1rem;
 }
 
-.bank-link a {
+.bank-logo {
 	color: black;
 	background-color: white;
 	text-decoration: none;
 	font-size: 1.5rem;
 	line-height: 1;
 	font-weight: bold;
-	padding: 1.8rem 0.75rem;
 	border-radius: 3rem;
-	height: 3rem;
+	height: 3.6rem;
 	display: flex;
 	align-items: center;
 	justify-content: center;
@@ -82,36 +81,28 @@ body {
 	background-position: center;
 }
 
-.bank-link a:hover {
+.bank-logo:hover {
 	background-color: #e7e7e7;
 }
 
-.bank-link a:active {
+.bank-logo:active {
 	filter: invert(1);
 }
 
 .privat-logo {
 	background-image: url(img/privat_logo.svg);
-	background-size: auto 1.7rem;
 }
 
 .mono-logo {
 	background-image: url(img/mono_logo.svg);
-	background-size: auto 1.7rem;
 }
 
 .revolut-logo {
 	background-image: url(img/revolut_logo.svg);
-	background-size: auto 1.7rem;
 }
 
-.number-description {
-	font-size: 0.75rem;
-	padding-bottom: 0.5rem;
-}
-
-#copied-description {
-	display: none;
+.card-number-block:hover {
+	cursor: pointer;
 }
 
 .card-number-block.copied #copied-description {
@@ -119,6 +110,16 @@ body {
 }
 
 .card-number-block.copied #copy-suggestion {
+	display: none;
+}
+
+.number-description {
+	font-size: 1rem;
+	padding-bottom: 0.5rem;
+	line-height: 1.4rem;
+}
+
+#copied-description {
 	display: none;
 }
 
@@ -136,14 +137,14 @@ body {
 	display: inline-block;
 }
 
-.card-number:not(:active) {
+.card-number-block:not(:active) .card-number {
 	transition-property: color, text-shadow;
 	transition-duration: 1s;
 }
 
-.card-number:active {
-	color: #013b93;
-	text-shadow: 0 0 5px #013b93;
+.card-number-block:active .card-number {
+	color: #c22d00;
+	text-shadow: 0 0 5px #e74100;
 }
 
 @media (min-width: 360px) {
@@ -170,9 +171,9 @@ body {
 		flex: 1 0 50%;
 		text-align: center;
 	}
-	.bank-link a {
+	.bank-logo {
 		font-size: 1.25rem;
-		padding: 0.75rem;
+		height: 2.6rem;
 		background-size: auto 1.1rem;
 	}
 }

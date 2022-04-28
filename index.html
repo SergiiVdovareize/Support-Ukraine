@@ -1,11 +1,12 @@
 <!DOCTYPE html>
-<html>
+<html lang="uk">
 <head>
     <title>Please, donate</title>
     <meta name="viewport" content="width=device-width,initial-scale=1.0">
     <link rel="icon" type="image/png" href="img/favicon.png"/>
     <link href="https://fonts.googleapis.com/css?family=Mulish" rel="stylesheet">
     <meta name="theme-color" content="#FFF401"/>
+    <meta name="description" content="Збираємо гроші на потреби 3 бригади оперативного призначення, Харків. Долучайтесь!">
     <link rel="stylesheet" href="styles.css"/>
 </head>
 
@@ -23,21 +24,22 @@
          <div class="bank-option">
             <!-- privat -->
             <div class="bank-link">
-               <a class="privat-logo" href="https://bit.ly/3MnBeFH" target="_blank"></a>
+               <a class="bank-logo privat-logo" href="https://bit.ly/3MnBeFH" aria-label="поповнення картки приват банку" target="_blank"></a>
             </div>
 
             <!-- mono -->
             <div class="bank-link">
-               <a class="mono-logo" href="https://bit.ly/3rG8qjW" target="_blank"></a>
+               <a class="bank-logo mono-logo" href="https://bit.ly/3rG8qjW" aria-label="поповнення картки монобанку" target="_blank"></a>
             </div>
             
             <!-- revolut -->
             <div class="bank-link">
-               <a class="revolut-logo" href="https://bit.ly/3vNJ2tv" target="_blank"></a>
+               <a class="bank-logo revolut-logo" href="https://bit.ly/3vNJ2tv" aria-label="поповнення картки револют банку" target="_blank"></a>
             </div>
 
+            <!-- rest -->
             <div class="bank-link">
-               <a href="https://bit.ly/3rG8qjW" target="_blank">
+               <a class="bank-logo" href="https://bit.ly/3rG8qjW"  aria-label="у мене інший банк" target="_blank">
                   <span>у мене інший банк</span>
                </a>
             </div>
@@ -48,14 +50,15 @@
 
             <div class="card-number-block" id='card-number-block'>
                <div class="card-number">
-                  1234 5678 3456 7891
-                  <!-- <img class="copy-number" src="img/copy-text.svg"/> -->
+                  <span id="card-number">1234 5678 3456 7000</span>
                </div>
                <div class='number-description' id='copy-suggestion'>
-                  натисни щоб скопіювати номер та піджарити руцню
+                  натисни щоб скопіювати номер<br/>
+                  та піджарити руцню
                </div>
                <div class='number-description' id='copied-description'>
-                  🔥 номер скопійовано, руцню підражарено 🔥
+                  👌 номер скопійовано, <br/>
+                  🔥 руцню підражарено 
                </div>
             </div>
          </div>
