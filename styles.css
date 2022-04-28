@@ -125,6 +125,8 @@ body {
 
 .card-number,
 .card-number:visited {
+	color: #0052CE;
+	text-decoration: none;
 	font-size: 1.75rem;
 	font-weight: bold;
 	padding: 0.5rem 0;
@@ -132,7 +134,7 @@ body {
 
 #card-number:visited {
 	color: #0052CE;
-	text-decoration: none; 
+	text-decoration: none;
 }
 
 .card-number::after {
