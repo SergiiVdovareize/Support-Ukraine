@@ -39,28 +39,28 @@ body {
 	max-height: 600px;
 }
 
-.option-description {
-	font-size: 1.75rem;
-	padding-bottom: 0.5rem;
-}
-
 .donate-description {
-	padding: 0.75rem 0;
+	padding-bottom: 0.5rem;
 	font-size: 2.5rem;
 	font-weight: bold;
 }
 
 .donate-sub-description {
 	font-size: 1.75rem;
-	padding: 0.5rem 0;
+	padding-top: 0.5rem;
+}
+
+.card-option-description {
+	font-size: 1.75rem;
+	padding-bottom: 0.5rem;
 }
 
 .bank-option {
-	padding: 3rem 0;
+	padding: 3rem 0 2rem 0;
 	width: 100%;
 }
 
-.bank-link:not(:last-child) {
+.bank-link {
 	margin-bottom: 1rem;
 }
 
@@ -114,7 +114,7 @@ body {
 
 .number-description {
 	font-size: 1rem;
-	padding-bottom: 0.5rem;
+	/* padding-bottom: 0.5rem; */
 	line-height: 1.4rem;
 }
 
@@ -190,13 +190,16 @@ body {
 	html {
 		font-size: 20px;
 	}
+
+	.content {
+		max-height: 650px;
+	}
+
 	.donate-description {
-		padding: 1rem 0;
 		font-size: 4rem;
 	}
 	.donate-sub-description {
 		font-size: 2rem;
-		padding: 1rem 0;
 	}
 	.card-number::after {
 		width: 24px;
