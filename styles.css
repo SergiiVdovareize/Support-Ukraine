@@ -215,15 +215,20 @@ body {
 	}
 }
 
-@media (max-height: 640px) {
-	.bank-logo {
-		height: 3rem;
+/* @media (max-height: 640px) {
+	html {
+		font-size: 16px;
+	}
+
+	.card-number::after {
+		width: 20px;
+		height: 20px;
 	}
 
 	.content {
 		max-height: 500px;
 	}
-}
+} */
 
 @media (max-height: 530px) {
 	html {
