@@ -149,12 +149,16 @@ body {
 
 @media (min-width: 360px) {
 	html {
-		font-size: 16px;
+		font-size: 14px;
 	}
 
 	.card-number::after {
-		width: 20px;
-		height: 20px;
+		width: 18px;
+		height: 18px;
+	}
+
+	.bank-logo {
+		height: 3rem;
 	}
 }
 
@@ -232,5 +236,10 @@ body {
 
 	.bank-logo {
 		height: 2.6rem;
+	}
+
+	.card-number::after {
+		width: 16px;
+		height: 16px;
 	}
 }
