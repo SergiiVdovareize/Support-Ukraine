@@ -56,7 +56,7 @@ body {
 }
 
 .bank-option {
-	padding: 3rem 0 2rem 0;
+	padding: 2rem 0 1.5rem;
 	width: 100%;
 }
 
@@ -116,7 +116,7 @@ body {
 .number-description {
 	font-size: 1rem;
 	padding-bottom: 0.5rem;
-	line-height: 1.4rem;
+	line-height: 1.4;
 }
 
 #copied-description {
@@ -223,7 +223,7 @@ body {
 	}
 } */
 
-@media (max-height: 530px) {
+@media (max-height: 610px) {
 	html {
 		font-size: 12px;
 	}
