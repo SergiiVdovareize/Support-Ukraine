@@ -67,6 +67,9 @@ body {
 .bank-logo {
 	color: black;
 	background-color: white;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: contain;
 	text-decoration: none;
 	font-size: 1.5rem;
 	line-height: 1;
@@ -76,8 +79,6 @@ body {
 	display: flex;
 	align-items: center;
 	justify-content: center;
-	background-repeat: no-repeat;
-	background-position: center;
 }
 
 .bank-logo:hover {
@@ -114,7 +115,7 @@ body {
 
 .number-description {
 	font-size: 1rem;
-	/* padding-bottom: 0.5rem; */
+	padding-bottom: 0.5rem;
 	line-height: 1.4rem;
 }
 
@@ -150,7 +151,7 @@ body {
 	html {
 		font-size: 16px;
 	}
-	
+
 	.card-number::after {
 		width: 20px;
 		height: 20px;
@@ -163,6 +164,9 @@ body {
 	}
 	.content {
 		max-height: 500px;
+	}
+	.bank-logo {
+		height: 3.2rem;
 	}
 	.bank-option {
 		display: flex;
@@ -210,5 +214,15 @@ body {
 @media (max-height: 530px) {
 	html {
 		font-size: 12px;
+	}
+
+	.bank-logo {
+		height: 2.6rem;
+	}
+}
+
+@media (max-height: 640px) {
+	.bank-logo {
+		height: 3rem;
 	}
 }
