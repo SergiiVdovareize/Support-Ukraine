@@ -4,8 +4,9 @@
  * 2. validate private link
  * 3. validate mono link
  * 4. validate revolute link
- * 4. validate fallback link
+ * 4. validate fallback link (not mono)
  * 5. update meta description
+ * 6. update donate description
  */
 
 (()=>{

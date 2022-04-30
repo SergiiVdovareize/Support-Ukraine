@@ -211,18 +211,26 @@ body {
 	}
 }
 
+@media (max-height: 640px) {
+	.bank-logo {
+		height: 3rem;
+	}
+
+	.content {
+		max-height: 500px;
+	}
+}
+
 @media (max-height: 530px) {
 	html {
 		font-size: 12px;
 	}
 
+	.content {
+		max-height: 400px;
+	}
+
 	.bank-logo {
 		height: 2.6rem;
-	}
-}
-
-@media (max-height: 640px) {
-	.bank-logo {
-		height: 3rem;
 	}
 }
