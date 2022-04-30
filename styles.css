@@ -165,9 +165,6 @@ body {
 	.content {
 		max-height: 500px;
 	}
-	.bank-logo {
-		height: 3.2rem;
-	}
 	.bank-option {
 		display: flex;
 		flex-wrap: wrap;
