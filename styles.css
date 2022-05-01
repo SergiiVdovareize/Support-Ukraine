@@ -1,3 +1,8 @@
+@font-face {
+    font-family: "PPObjectSans-Regular";
+    src: url("PPObjectSans-Regular.otf") format('opentype');
+}
+
 html {
 	box-sizing: border-box;
 	height: 100%;
@@ -9,7 +14,7 @@ html {
 }
 
 body {
-	font: 1rem/1 'Exo 2', sans-serif;
+	font: 1rem/1 'PPObjectSans-Regular', sans-serif;
 	padding: 0;
 	margin: 0;
 	color: #0052CE;
@@ -151,7 +156,7 @@ body {
 	html {
 		font-size: 16px;
 	}
-
+	
 	.card-number::after {
 		width: 20px;
 		height: 20px;
@@ -207,21 +212,6 @@ body {
 		height: 24px;
 	}
 }
-
-/* @media (max-height: 640px) {
-	html {
-		font-size: 16px;
-	}
-
-	.card-number::after {
-		width: 20px;
-		height: 20px;
-	}
-
-	.content {
-		max-height: 500px;
-	}
-} */
 
 @media (max-height: 610px) {
 	html {
