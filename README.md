@@ -21,7 +21,7 @@
 `https://_yourname_.uasupport.live`\
 Запит на допомогу [залишайте тут](https://github.com/SergiiVdovareize/donate/issues/3).
 
-## Автори
+## Автори та авторки
 Ідея та розробка - [Сергій Вдоварейзе](https://github.com/SergiiVdovareize)\
 Дизайн - [Аліна Хабачова](https://alinakhabachova.com)\
 Верстка - [Антон Клижка](https://github.com/klyzhka)\
