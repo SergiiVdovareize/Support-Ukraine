@@ -1,6 +1,6 @@
 # Шаблон сторінки для донатів
 
-<img src='img/demo.png' height=600>
+![Демонстрація екрану](img/demo.png)
 
 Демо - https://donate.uasupport.live
 
