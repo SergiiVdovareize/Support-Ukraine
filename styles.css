@@ -207,11 +207,11 @@ body {
 		font-size: 16px;
 	}
 
-	.content.short,
+	/* .content.short,
 	.content.medium,
 	.content.long {
-		max-height: 600px;
-	}
+		max-height: 660px;
+	} */
 
 	.card-number::after {
 		width: 20px;
