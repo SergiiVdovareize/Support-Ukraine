@@ -86,8 +86,16 @@ body {
 	font-weight: bold;
 }
 
-.donate-sub-description {
+.donate-sub-description.short {
 	font-size: 1.75rem;
+}
+
+.donate-sub-description.medium {
+	font-size: 1.5rem;
+}
+
+.donate-sub-description.long {
+	font-size: 1.3rem;
 }
 
 .card-option-description {
@@ -130,15 +138,15 @@ body {
 }
 
 .privat-logo {
-	background-image: url(img/privat_logo.svg);
+	background-image: url(img/logo/privat.svg);
 }
 
 .mono-logo {
-	background-image: url(img/mono_logo.svg);
+	background-image: url(img/logo/mono.svg);
 }
 
 .revolut-logo {
-	background-image: url(img/revolut_logo.svg);
+	background-image: url(img/logo/revolut.svg);
 }
 
 .card-number-block:hover {
@@ -202,6 +210,13 @@ body {
 	html {
 		font-size: 18px;
 	}
+
+	.donate-sub-description.short,
+	.donate-sub-description.medium,
+	.donate-sub-description.long {
+		font-size: 1.75rem;
+	}
+
 	.content {
 		max-height: 500px;
 	}
