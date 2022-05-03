@@ -77,7 +77,16 @@ body {
 	align-items: center;
 	flex-direction: column;
 	max-width: 1280px;
+}
+
+.content.short {
 	max-height: 600px;
+}
+.content.medium {
+	max-height: 640px;
+}
+.content.long {
+	max-height: 660px;
 }
 
 .donate-description {
@@ -86,16 +95,14 @@ body {
 	font-weight: bold;
 }
 
-.donate-sub-description.short {
+.short .donate-sub-description {
 	font-size: 1.75rem;
 }
-
-.donate-sub-description.medium {
+.medium .donate-sub-description {
 	font-size: 1.5rem;
 }
-
-.donate-sub-description.long {
-	font-size: 1.3rem;
+.long .donate-sub-description {
+	font-size: 1.4rem;
 }
 
 .card-option-description {
@@ -199,7 +206,13 @@ body {
 	html {
 		font-size: 16px;
 	}
-	
+
+	.content.short,
+	.content.medium,
+	.content.long {
+		max-height: 600px;
+	}
+
 	.card-number::after {
 		width: 20px;
 		height: 20px;
@@ -211,15 +224,18 @@ body {
 		font-size: 18px;
 	}
 
-	.donate-sub-description.short,
-	.donate-sub-description.medium,
-	.donate-sub-description.long {
+	.short .donate-sub-description,
+	.medium .donate-sub-description,
+	.long .donate-sub-description {
 		font-size: 1.75rem;
 	}
 
-	.content {
+	.content.short,
+	.content.medium,
+	.content.long {
 		max-height: 500px;
 	}
+
 	.bank-option {
 		display: flex;
 		flex-wrap: wrap;
@@ -247,7 +263,9 @@ body {
 		font-size: 20px;
 	}
 
-	.content {
+	.content.short,
+	.content.medium,
+	.content.long {
 		max-height: 650px;
 	}
 
@@ -268,8 +286,14 @@ body {
 		font-size: 12px;
 	}
 
-	.content {
+	.content.short {
 		max-height: 400px;
+	}
+	.content.medium {
+		max-height: 420px;
+	}
+	.content.long {
+		max-height: 440px !important;
 	}
 
 	.bank-logo {
