@@ -2,7 +2,7 @@
 
 <img src='img/readme/demo.png' height=600>
 
-Демо - https://donate.uasupport.live
+Демо - https://template.uasupport.live
 
 ## Призначення
 Зручная локанічна сторінка із основними варіантами доната.\
