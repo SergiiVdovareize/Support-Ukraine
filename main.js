@@ -1,1 +1,29 @@
-(()=>{let e;const t=e=>{e.classList.remove("copied")};(()=>{const c=document.getElementById("card-number-block");c.onclick=(()=>{(c=>{clearTimeout(e),c.classList.add("copied");const o=document.getElementById("card-number").innerText.replaceAll(/\s/g,"");navigator.clipboard.writeText(o),e=setTimeout(()=>{t(c)},1e4)})(c)})})()})();
+(()=>{
+    let resetId
+
+    const copyNumber = (block) => {
+        clearTimeout(resetId);
+        block.classList.add('copied')
+        
+        const cardNumber = document.getElementById('card-number').innerText.replaceAll(/\s/g, "")
+        navigator.clipboard.writeText(cardNumber)
+        navigator.vibrate(100)
+
+        resetId = setTimeout(() => {
+            resetCopy(block)
+        }, 10000)
+    }
+
+    const resetCopy = (block) => {
+        block.classList.remove('copied')
+    }
+
+    const initCopy = () => {
+        const block = document.getElementById('card-number-block')
+        block.onclick = () => {
+            copyNumber(block)
+        }
+    }
+
+    initCopy()
+})()
