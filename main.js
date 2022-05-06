@@ -7,7 +7,7 @@
         
         const cardNumber = document.getElementById('card-number').innerText.replaceAll(/\s/g, "")
         navigator.clipboard.writeText(cardNumber)
-        navigator.vibrate(100)
+        navigator.vibrate(50)
 
         resetId = setTimeout(() => {
             resetCopy(block)
