@@ -210,6 +210,12 @@ body {
 	text-shadow: 0 0 5px #e74100;
 }
 
+.preload {
+	width: 0;
+	height: 0;
+	position: absolute;
+}
+
 @media (min-width: 360px) {
 	html {
 		font-size: 16px;
