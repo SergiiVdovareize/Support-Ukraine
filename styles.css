@@ -122,9 +122,6 @@ body {
 .bank-logo {
 	color: black;
 	background-color: white;
-	background-repeat: no-repeat;
-	background-size: contain;
-	background-position: center;
 	text-decoration: none;
 	font-size: 1.5rem;
 	line-height: 1;
@@ -142,6 +139,10 @@ body {
 
 .bank-logo:active {
 	filter: invert(1);
+}
+
+.bank-logo img {
+	height: inherit;
 }
 
 .privat-logo {
