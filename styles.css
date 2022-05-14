@@ -145,26 +145,6 @@ body {
 	height: inherit;
 }
 
-.privat-logo {
-	background-image: url("img/logo/privat.svg");
-}
-
-.mono-logo {
-	background-image: url("img/logo/mono.svg");
-}
-
-.revolut-logo {
-	background-image: url("img/logo/revolut.svg");
-}
-
-.paypal-logo {
-	background-image: url(img/logo/paypal.svg);
-}
-
-.tikkie-logo {
-	background-image: url(img/logo/tikkie.svg);
-}
-
 .card-number-block:hover {
 	cursor: pointer;
 }
