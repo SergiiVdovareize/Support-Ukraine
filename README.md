@@ -28,7 +28,7 @@
 ## У мене лапки
 Якщо ви хочете зробити собі таку сторінку, але не розумієте як, звертайтесь до нас. Ми надамо технічну допомогу з **безкоштовним** розгортанням сторінки та розміщенню її на будь-якому піддомені типу 
 `https://_yourname_.uasupport.live`\
-Запит на допомогу [залишайте тут](https://github.com/SergiiVdovareize/donate/issues/3).
+Щоб отримати допомогу напишіть у приватні повідомнення на [facebook](https://www.facebook.com/profile.php?id=100005431693225) або [instagram](https://www.instagram.com/what_if_alina_could_cook/).
 
 ## Автори та авторки
 Ідея та розробка - [Сергій Вдоварейзе](https://github.com/SergiiVdovareize)\
