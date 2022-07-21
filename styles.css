@@ -53,8 +53,6 @@ body {
 	font: 1rem/1 'Exo 2', sans-serif;
 	padding: 0;
 	margin: 0;
-	color: #0052CE;
-	background-color: #FFF401;
 	height: 100%;
 }
 
@@ -120,8 +118,6 @@ body {
 }
 
 .bank-logo {
-	color: black;
-	background-color: white;
 	text-decoration: none;
 	font-size: 1.5rem;
 	line-height: 2.1;
@@ -131,10 +127,6 @@ body {
 	display: flex;
 	align-items: center;
 	justify-content: center;
-}
-
-.bank-logo:hover {
-	background-color: #e7e7e7;
 }
 
 .bank-logo:active {
@@ -176,20 +168,16 @@ body {
 
 .card-number::after {
 	content: "";
-	background-image: url(img/copy-text.svg);
 	width: 16px;
 	height: 16px;
 	display: inline-block;
+	-webkit-mask-image: url(img/copy-text.svg);
+    mask-image: url(img/copy-text.svg);
 }
 
 .card-number-block:not(:active) .card-number {
 	transition-property: color, text-shadow;
 	transition-duration: 2s;
-}
-
-.card-number-block:active .card-number {
-	color: #c22d00;
-	text-shadow: 0 0 5px #e74100;
 }
 
 .preload {
@@ -294,4 +282,54 @@ body {
 		width: 16px;
 		height: 16px;
 	}
+}
+
+/* *** THEMES *** */
+
+/* DEFAULT THEME */
+.container.theme-default {
+	color: #0052CE;
+	background-color: #FFF401;	
+}
+
+.theme-default .bank-logo {
+	color: black;
+	background-color: white;
+}
+
+.theme-default .bank-logo:hover {
+	background-color: #e7e7e7;
+}
+
+.theme-default .card-number-block:active .card-number {
+	color: #c22d00;
+	text-shadow: 0 0 5px #e74100;
+}
+
+.theme-default .card-number::after {
+	background-color: #0052CE;
+}
+
+/* RIGHT SECTOR THEME */
+.container.theme-right-sector {
+	color: white;
+	background-color: #DA251C;	
+}
+
+.theme-right-sector .bank-logo {
+	color: black;
+	background-color: white;
+}
+
+.theme-right-sector .bank-logo:hover {
+	background-color: #e7e7e7;
+}
+
+.theme-right-sector .card-number-block:active .card-number {
+	color: black;
+	text-shadow: 0 0 5px black;
+}
+
+.theme-right-sector .card-number::after {
+	background-color: white;
 }
