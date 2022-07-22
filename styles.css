@@ -136,9 +136,16 @@ body {
 .bank-logo {
 	-webkit-mask-repeat: no-repeat;
 	-webkit-mask-position: center;
-	/* -webkit-mask-size: 176px auto; */
+	-webkit-mask-size: contain;
 	mask-repeat: no-repeat;
 	mask-position: center;
+	mask-size: contain;
+}
+
+.bank-rest {
+	display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .bank-private {
@@ -156,14 +163,15 @@ body {
     mask-image: url(img/logo/revolut.svg);
 }
 
-/* .bank-logo:active {
-	filter: invert(1);
-} */
+.bank-tikkie {
+	-webkit-mask-image: url(img/logo/tikkie.svg);
+    mask-image: url(img/logo/tikkie.svg);
+}
 
-/* .bank-logo img {
-	height: inherit;
-	max-width: 100%;
-} */
+.bank-paypal {
+	-webkit-mask-image: url(img/logo/paypal.svg);
+    mask-image: url(img/logo/paypal.svg);
+}
 
 .card-number-block:hover {
 	cursor: pointer;
@@ -314,7 +322,7 @@ body {
 /* *** THEMES *** */
 
 /* DEFAULT THEME */
-/* .container.theme-default {
+.container.theme-default {
 	color: #0052CE;
 	background-color: #FFF401;	
 }
@@ -335,7 +343,19 @@ body {
 
 .theme-default .card-number::after {
 	background-color: #0052CE;
-} */
+}
+
+.theme-default .bank-link-bg {
+	background-color: white;
+}
+
+.theme-default .bank-logo {
+	background-color: black;
+}
+
+.theme-default .bank-rest {
+	color: black;
+}
 
 /* RIGHT SECTOR THEME */
 .container.theme-right-sector {
@@ -347,7 +367,6 @@ body {
 	color: white;
 	background-color: black;
 }
-
 
 .theme-right-sector .bank-logo:hover {
 	background-color: #e7e7e7;
