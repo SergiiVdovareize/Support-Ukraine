@@ -113,30 +113,57 @@ body {
 	width: 100%;
 }
 
-.bank-link {
+.bank-link-wrapper {
 	margin-bottom: 1rem;
 }
 
-.bank-logo {
-	text-decoration: none;
-	font-size: 1.5rem;
-	line-height: 2.1;
-	font-weight: bold;
+.bank-link-bg {
 	border-radius: 3rem;
-	height: 3.6rem;
 	display: flex;
 	align-items: center;
 	justify-content: center;
 }
 
-.bank-logo:active {
-	filter: invert(1);
+.bank-link {
+	text-decoration: none;
+	font-size: 1.5rem;
+	line-height: 2.1;
+	font-weight: bold;
+	height: 3.6rem;
+	width: 100%;
 }
 
-.bank-logo img {
+.bank-logo {
+	-webkit-mask-repeat: no-repeat;
+	-webkit-mask-position: center;
+	/* -webkit-mask-size: 176px auto; */
+	mask-repeat: no-repeat;
+	mask-position: center;
+}
+
+.bank-private {
+	-webkit-mask-image: url(img/logo/privat.svg);
+    mask-image: url(img/logo/privat.svg);
+}
+
+.bank-mono {
+	-webkit-mask-image: url(img/logo/mono.svg);
+    mask-image: url(img/logo/mono.svg);
+}
+
+.bank-revolut {
+	-webkit-mask-image: url(img/logo/revolut.svg);
+    mask-image: url(img/logo/revolut.svg);
+}
+
+/* .bank-logo:active {
+	filter: invert(1);
+} */
+
+/* .bank-logo img {
 	height: inherit;
 	max-width: 100%;
-}
+} */
 
 .card-number-block:hover {
 	cursor: pointer;
@@ -220,12 +247,12 @@ body {
 		max-width: 700px;
 		margin: 0 auto;
 	}
-	.bank-link {
+	.bank-link-wrapper {
 		padding: 0 1rem;
 		flex: 1 0 50%;
 		text-align: center;
 	}
-	.bank-logo {
+	.bank-link {
 		font-size: 1.25rem;
 		height: 2.6rem;
 		background-size: auto 2.4rem;
@@ -274,7 +301,7 @@ body {
 		max-height: 440px !important;
 	}
 
-	.bank-logo {
+	.bank-link {
 		height: 3rem;
 	}
 
@@ -287,7 +314,7 @@ body {
 /* *** THEMES *** */
 
 /* DEFAULT THEME */
-.container.theme-default {
+/* .container.theme-default {
 	color: #0052CE;
 	background-color: #FFF401;	
 }
@@ -308,7 +335,7 @@ body {
 
 .theme-default .card-number::after {
 	background-color: #0052CE;
-}
+} */
 
 /* RIGHT SECTOR THEME */
 .container.theme-right-sector {
@@ -317,9 +344,10 @@ body {
 }
 
 .theme-right-sector .bank-logo {
-	color: black;
-	background-color: white;
+	color: white;
+	background-color: black;
 }
+
 
 .theme-right-sector .bank-logo:hover {
 	background-color: #e7e7e7;
@@ -332,4 +360,16 @@ body {
 
 .theme-right-sector .card-number::after {
 	background-color: white;
+}
+
+.theme-right-sector .bank-link-bg {
+	background-color: black;
+}
+
+.theme-right-sector .bank-logo {
+	background-color: white;
+}
+
+.theme-right-sector .bank-rest {
+	color: white;
 }
