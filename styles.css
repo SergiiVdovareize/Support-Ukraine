@@ -118,10 +118,15 @@ body {
 }
 
 .bank-link-bg {
+	background-color: white;
 	border-radius: 3rem;
 	display: flex;
 	align-items: center;
 	justify-content: center;
+}
+
+.bank-link-bg:hover {
+	background-color: #e7e7e7;
 }
 
 .bank-link {
@@ -134,6 +139,8 @@ body {
 }
 
 .bank-logo {
+	background-color: black;
+	
 	-webkit-mask-repeat: no-repeat;
 	-webkit-mask-position: center;
 	-webkit-mask-size: contain;
@@ -143,6 +150,7 @@ body {
 }
 
 .bank-rest {
+	color: black;
 	display: flex;
     align-items: center;
     justify-content: center;
@@ -175,6 +183,15 @@ body {
 
 .card-number-block:hover {
 	cursor: pointer;
+}
+
+.card-number-block:active .card-number {
+	color: #c22d00;
+	text-shadow: 0 0 5px #e74100;
+}
+
+.card-number::after {
+	background-color: white;
 }
 
 .card-number-block.copied #copied-description {
@@ -327,58 +344,14 @@ body {
 	background-color: #FFF401;	
 }
 
-.theme-default .bank-logo {
-	color: black;
-	background-color: white;
-}
-
-.theme-default .bank-logo:hover {
-	background-color: #e7e7e7;
-}
-
-.theme-default .card-number-block:active .card-number {
-	color: #c22d00;
-	text-shadow: 0 0 5px #e74100;
-}
-
 .theme-default .card-number::after {
 	background-color: #0052CE;
-}
-
-.theme-default .bank-link-bg {
-	background-color: white;
-}
-
-.theme-default .bank-logo {
-	background-color: black;
-}
-
-.theme-default .bank-rest {
-	color: black;
 }
 
 /* RIGHT SECTOR THEME */
 .container.theme-right-sector {
 	color: white;
 	background-color: #DA251C;	
-}
-
-.theme-right-sector .bank-logo {
-	color: white;
-	background-color: black;
-}
-
-.theme-right-sector .bank-logo:hover {
-	background-color: #e7e7e7;
-}
-
-.theme-right-sector .card-number-block:active .card-number {
-	color: black;
-	text-shadow: 0 0 5px black;
-}
-
-.theme-right-sector .card-number::after {
-	background-color: white;
 }
 
 .theme-right-sector .bank-link-bg {
@@ -391,4 +364,29 @@ body {
 
 .theme-right-sector .bank-rest {
 	color: white;
+}
+
+.theme-right-sector .bank-link-bg:hover {
+	background-color: #272727;
+}
+
+.theme-right-sector .card-number-block:active .card-number {
+	color: black;
+	text-shadow: 0 0 5px black;
+}
+
+/* BLUE THEME */
+.container.theme-blue {
+	color: #FFF401;
+	background-color: #0052CE;	
+}
+
+.theme-blue .card-number::after {
+	background-color: #FFF401;
+}
+
+/* DARK THEME */
+.container.theme-dark {
+	color: white;
+	background-color: black;
 }
