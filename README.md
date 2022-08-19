@@ -14,6 +14,12 @@
 - Сінгл пейдж та респонсів
 - Жодної залежності
 - Палить руцню
+- Підтримка тем
+
+<img src='img/readme/themes/red.png' height=300 style='margin-right: 10px'>
+<img src='img/readme/themes/blue.png' height=300 style='margin-right: 10px'>
+<img src='img/readme/themes/dark.png' height=300 style='margin-right: 10px'>
+<img src='img/readme/themes/light.png' height=300>
 
 ## Як це працює
 - Пишете коротку тезу стосовно зборів, наприклад - `На дрон и такмед для підрозділу 029`
