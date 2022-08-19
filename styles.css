@@ -390,3 +390,25 @@ body {
 	color: white;
 	background-color: black;
 }
+
+/* LIGHT THEME */
+.container.theme-light {
+	color: #000;
+	background-color: #fff;
+}
+
+.theme-light .bank-link-bg {
+	background-color: black;
+}
+
+.theme-light .bank-logo {
+	background-color: white;
+}
+
+.theme-light .bank-rest {
+	color: white;
+}
+
+.theme-light .bank-link-bg:hover {
+	background-color: #272727;
+}
