@@ -16,7 +16,7 @@
 - Палить руцню
 - Підтримка тем
 
-<table style='border: none'>
+<table>
     <tr>
         <td style='border: 0'><img src='img/readme/themes/red.png' height=300></td>
         <td style='border: 0'><img src='img/readme/themes/blue.png' height=300></td>
