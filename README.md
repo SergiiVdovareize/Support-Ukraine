@@ -18,10 +18,10 @@
 
 <table>
     <tr>
-        <td style='border: 0'><img src='img/readme/themes/red.png' height=300></td>
-        <td style='border: 0'><img src='img/readme/themes/blue.png' height=300></td>
-        <td style='border: 0'><img src='img/readme/themes/dark.png' height=300></td>
-        <td style='border: 0'><img src='img/readme/themes/light.png' height=300></td>
+        <td style='border: 0; padding: 2px;'><img src='img/readme/themes/red.png' style='height: auto; max-height: 300px'></td>
+        <td style='border: 0'><img src='img/readme/themes/blue.png' style='height: auto; max-height: 300px'></td>
+        <td style='border: 0'><img src='img/readme/themes/dark.png' style='height: auto; max-height: 300px'></td>
+        <td style='border: 0'><img src='img/readme/themes/light.png' style='height: auto; max-height: 300px'></td>
     </tr>
 </table>
 
