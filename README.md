@@ -16,14 +16,7 @@
 - Палить руцню
 - Підтримка тем
 
-<table>
-    <tr>
-        <td><img src='img/readme/themes/red.png' style='height: auto; max-height: 300px'></td>
-        <td><img src='img/readme/themes/blue.png' style='height: auto; max-height: 300px'></td>
-        <td><img src='img/readme/themes/dark.png' style='height: auto; max-height: 300px'></td>
-        <td><img src='img/readme/themes/light.png' style='height: auto; max-height: 300px; border: 1px #cfcfcf solid;'></td>
-    </tr>
-</table>
+<img src='img/readme/themes.png'>
 
 ## Як це працює
 - Пишете коротку тезу стосовно зборів, наприклад - `На дрон и такмед для підрозділу 029`
