@@ -1,5 +1,4 @@
-# ИДИ НА ХУЙ!
-![иди на хуй](img/readme/fuckoff.png)
+![іді нахуй](img/readme/idi.jpg)
 
 ---
 [Повернутись до людської мови](README.md)
